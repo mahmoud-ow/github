@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// created by mahmoud
+Route::get('/posts', function(){
+    return '';
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
